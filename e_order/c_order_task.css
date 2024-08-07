@@ -1,0 +1,46 @@
+#a {
+    width: 100%;
+}
+
+#b {
+    width: 100%;
+    height: 200px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#c {
+    background-color: burlywood;
+    margin: 0 auto;
+}
+
+#d {
+    background-color: cadetblue;
+}
+
+#e {
+    background-color: aquamarine;
+    height: 60px;
+    padding: 10px;
+    line-height: 60px;
+    margin: 0 auto;
+}
+
+#f {
+    background-color: blueviolet;
+}
+
+#g {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background-color: blanchedalmond;
+}
+
+#h {
+    background-color: white;
+}
