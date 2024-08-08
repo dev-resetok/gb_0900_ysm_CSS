@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>position 실습</title>
+        <style>
+            #container {
+                position: relative;
+                width: 1000px;
+                height: 600px;
+                margin: 0 auto;
+            }
+            #image {
+                position: absolute;
+                width: 176px;
+                height: 262px;
+                background-image: url("https://gangnam.koreaisacademy.com/2023/img/tch/teacher007.png");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                left: 10%;
+                top: 30%;
+                transform: translate(-50%, -50%);
+            }
+            #urgot {
+                position: absolute;
+                width: 500px;
+                height: 500px;
+                background-image: url("images/urgot.png");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                left: 90%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+            #urgot_cut {
+                position: absolute;
+                width: 420px;
+                height: 280px;
+                background-image: url("images/urgot_cut.png");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                left: 10%;
+                top: 75%;
+                transform: translate(-50%, -50%);
+            }
+            #equal {
+                position: absolute;
+                width: 200px;
+                height: 140px;
+                background-image: url("images/equal.png");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                left: 46%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+            #explain {
+                position: absolute;
+                width: 200px;
+                height: 140px;
+                left: 50%;
+                top: 90%;
+                transform: translate(-50%, -50%);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="image"></div>
+            <div id="urgot_cut"></div>
+            <div id="urgot"></div>
+            <div id="equal"></div>
+            <!-- <div id="explain"><화 나셨을 때만></div> -->
+        </div>
+    </body>
+</html>
